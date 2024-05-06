@@ -1,0 +1,298 @@
+        //=============================================================
+        // Croque-monsieur
+        static string croqueMonsieurName = "Croque-monsieur";
+        static string croqueMonsieurDescription = SplitString("A croque-monsieur or croquemonsieur" +
+            " is a hot sandwich, originally from France, made from " +
+            "bread, white ham and cheese (Emmental, Comté, etc.)." +
+            " ideally cooked on the stove over a wood fire, on the " +
+            "coal stove or even in the fireplace using a specialized" +
+            " cast iron kitchen utensil with long handles (called a " +
+            "“croque-monsieur iron” or “sandwich iron”), or grilled" +
+            " in a pan, in the oven, or, since the 1970s and 1980s, " +
+            "in a specialized electrical appliance.\n", 100);
+
+        static string croqueMonsieurDescription1 = SplitString("Butter the 8 slices of sandwich bread" +
+            " on one side. Place 1 slice of cheese on each slice of " +
+            "sandwich bread. Place 1 slice of ham folded in half on" +
+            " 4 slices of sandwich bread. Cover with the other toasts " +
+            "(unbuttered side up).\n", 100);
+        static Steps croqueMonsieurFirst = new Steps(croqueMonsieurDescription1, 4, 1);
+
+        static string croqueMonsieurDescription2 = SplitString("In a bowl mix the grated cheese" +
+            " with the milk, salt, pepper and nutmeg.\n", 100);
+        static Steps croqueMonsieurSecond = new Steps(croqueMonsieurDescription2, 1, 2);
+
+        static string croqueMonsieurDescription3 = SplitString("Spread the mixture over the" +
+            " croque-monsieur.\n", 100);
+        static Steps croqueMonsieurThird = new Steps(croqueMonsieurDescription3, 1, 3);
+
+        static string croqueMonsieurDescription4 = SplitString("Place on a baking tray under " +
+            "the grill for 10 minutes.\n", 100);
+        static Steps croqueMonsieurFourth = new Steps(croqueMonsieurDescription4, 0, 4);
+
+        static List<Steps> croqueMonsieurSteps = new List<Steps>() { croqueMonsieurFirst, croqueMonsieurSecond, croqueMonsieurThird, croqueMonsieurFourth };
+
+        static List<qIngredient> croqueMonsieurIngredients = new List<qIngredient>()
+        {
+            new qIngredient(Ingredients.Salt,0),
+            new qIngredient(Ingredients.Pepper, 0),
+            new qIngredient(Ingredients.Nutmeg, 0),
+            new qIngredient(Ingredients.Gruyere, 100),
+            new qIngredient(Ingredients.Ham, -4),
+            new qIngredient(Ingredients.Butter, 50),
+            new qIngredient(Ingredients.SlicedOfBread, -8),
+            new qIngredient(Ingredients.Cheddar, 50),
+            new qIngredient(Ingredients.Milk, 60)
+        };
+        public static Recipe CroqueMonsieur = new Recipe(
+            croqueMonsieurName,
+            croqueMonsieurDescription,
+            croqueMonsieurSteps,
+            croqueMonsieurIngredients,
+            10f,
+            "Images/croqueMonsieur.png",
+            5.90f,
+            2235
+            );
+
+
+        //=============================================================
+        // Cassoulet
+        static string cassouletName = "Cassoulet";
+        static string cassouletDescription = SplitString("Cassoulet is a rich, slow-cooked" +
+            " casserole originating in the south of France, containing meat " +
+            "(typically pork sausages, pork, goose, duck, and sometimes mutton)," +
+            " pork skin (couennes) and white haricot beans.\n", 100);
+
+        static string cassouletDescription1 = SplitString("Soak the dried beans in cold water" +
+            " for 24 hours before cooking.\n", 100);
+        static Steps cassouletFirst = new Steps(cassouletDescription1, 10, 1);
+
+        static string cassouletDescription2 = SplitString("Drain the mojette, cook it in a casserole dish, " +
+            "covered with cold, unsalted water, with 5 or 6 cloves of garlic, " +
+            "thyme and bay leaf, for a good 1/2 hour, 3/4 hour , from boiling\n", 100);
+        static Steps cassouletSecond = new Steps(cassouletDescription2, 40, 2);
+
+        static string cassouletDescription3 = SplitString("Drain the mojette, then put it in a large casserole" +
+            " dish, cover with water. Add the tomato paste, the slices of sausage, " +
+            "the smoked brisket previously cut into pieces, a few cloves of garlic " +
+            "(the old ones will have been removed),thyme, bay leaf, " +
+            "return to simmer.\n", 100);
+        static Steps cassouletThird = new Steps(cassouletDescription3, 15, 3);
+
+        static string cassouletDescription4 = SplitString("In a pan, grill the fresh brisket cut into pieces, then" +
+            " the sausages, and add all of this to the casserole, taking care to wipe off the excess fat " +
+            "with a paper towel. Add salt and pepper, and return to simmer for an hour over very low heat " +
+            "(thermostat 3 maximum on the simmering plate), " +
+            " stirring from time to time.\n", 100);
+        static Steps cassouletFourth = new Steps(cassouletDescription4, 15, 4);
+
+        static string cassouletDescription5 = SplitString("Remove the duck legs from the boxes, clean them well" +
+            " of all the fat, and separate the tops and bottoms of the legs.\n", 100);
+        static Steps cassouletFifth = new Steps(cassouletDescription5, 10, 5);
+
+        static string cassouletDescription6 = SplitString("Add to the casserole, check the seasoning, and simmer" +
+            " for another 1/2 hour. Preheat the oven, rotating heat (place two dishes on two levels), " +
+            "to 110°C (thermostat 3 or 4).\n", 100);
+        static Steps cassouletSith = new Steps(cassouletDescription6, 30, 6);
+
+        static string cassouletDescription7 = SplitString("Take two large earthenware gratin dishes with fairly" +
+            " high edges, rub them with garlic, then, delicately, distribute the contents of the " +
+            "casserole dish between the two dishes (be careful of the confit which comes off very" +
+            " easily). The sauce should just cover the beans. then sprinkle with breadcrumbs, and put " +
+            "in the oven. Check regularly that the preparation is cooking slowly, and that there is" +
+            " enough sauce, the juice must always be at the level of the beans. From time to time, press " +
+            "on the pieces of meat or sausage to put them back into the sauce a little.\n", 100);
+        static Steps cassouletSeventh = new Steps(cassouletDescription7, 10, 7);
+
+        static string cassouletDescription8 = SplitString("You can simmer for another 1/2 hour, two hours, or better" +
+            " let it cool after an hour and cook again for another hour (for example if you prepare the " +
+            "day before). It's even better reheated\n", 100);
+        static Steps cassouletEighth = new Steps(cassouletDescription8, 30, 8);
+
+
+        static List<Steps> cassouletSteps = new List<Steps>()
+        {
+            cassouletFirst,
+            cassouletSecond,
+            cassouletThird,
+            cassouletFourth,
+            cassouletFifth,
+            cassouletSith,
+            cassouletSeventh,
+            cassouletEighth,
+        };
+
+        static List<qIngredient> cassouletIngredients = new List<qIngredient>()
+        {
+            new qIngredient(Ingredients.Salt, 0),
+            new qIngredient(Ingredients.Pepper, 0),
+            new qIngredient(Ingredients.Thyme, 20),
+            new qIngredient(Ingredients.WhiteBeans, 750),
+            new qIngredient(Ingredients.GarlicSausage, 128),
+            new qIngredient(Ingredients.ToulouseSausage, -8),
+            new qIngredient(Ingredients.PorkBelly, -8),
+            new qIngredient(Ingredients.Duck, -2),
+            new qIngredient(Ingredients.TomatoPaste, 70),
+            new qIngredient(Ingredients.Breadcrumbs, 0),
+            new qIngredient(Ingredients.Garlic, -1),
+            new qIngredient(Ingredients.BayLeaf, 4)
+        };
+
+        public static Recipe Cassoulet = new Recipe(
+            cassouletName,
+            cassouletDescription,
+            cassouletSteps,
+            cassouletIngredients,
+            240.0f,
+            "Images/cassoulet.jpg",
+            30.60f,
+            7490
+        );
+        //=============================================================
+        // Boeuf Bourguignon
+        static string boeufBourguignonName = "Boeuf Bourguignon";
+        static string boeufBourguignonDescription = SplitString("Boeuf Bourguignon is a classic French dish" +
+            " consisting of beef braised in red wine, traditionally red Burgundy, and beef broth, " +
+            "flavored with garlic, onions, carrots, and bouquet garni.\n", 100);
+
+        static string boeufBourguignonDescription1 = SplitString("Cut the meat into 3 cm cubes, removing large pieces of fat.\n", 100);
+        static Steps boeufBourguignonFirst = new Steps(boeufBourguignonDescription1, 10, 1);
+
+        static string boeufBourguignonDescription2 = SplitString("Cut the onion into pieces. Brown it in a pan with butter." +
+            " Once transparent,\n pour it into a cast iron casserole dish, preferably.\n", 100);
+        static Steps boeufBourguignonSecond = new Steps(boeufBourguignonDescription2, 15, 2);
+
+        static string boeufBourguignonDescription3 = SplitString("Proceed in the same way with the meat but in several batches," +
+            " until all the pieces are cooked. Add them gradually to the casserole dish. Don't be afraid to add butter" +
+            "between each batch.\n", 100);
+        static Steps boeufBourguignonThird = new Steps(boeufBourguignonDescription3, 30, 3);
+
+        static string boeufBourguignonDescription4 = SplitString("When all the meat is in the casserole, deglaze the pan with" +
+            " water or wine and boil, scraping to recover the juice. Salt, pepper, add to the rest.\n", 100);
+        static Steps boeufBourguignonFourth = new Steps(boeufBourguignonDescription4, 10, 4);
+
+        static string boeufBourguignonDescription5 = SplitString("Cover everything with some of the wine and simmer for a few hours" +
+            " with the bouquet garni and the sliced carrots.\n", 100);
+        static Steps boeufBourguignonFifth = new Steps(boeufBourguignonDescription5, 240, 5);
+
+        static string boeufBourguignonDescription6 = SplitString("The next day, simmer for at least 2 hours in several batches, " +
+            "adding wine or water if necessary.\n", 100);
+        static Steps boeufBourguignonSixth = new Steps(boeufBourguignonDescription6, 120, 6);
+
+        static List<Steps> boeufBourguignonSteps = new List<Steps>()
+{
+    boeufBourguignonFirst,
+    boeufBourguignonSecond,
+    boeufBourguignonThird,
+    boeufBourguignonFourth,
+    boeufBourguignonFifth,
+    boeufBourguignonSixth
+};
+
+        static List<qIngredient> boeufBourguignonIngredients = new List<qIngredient>()
+{
+    new qIngredient(Ingredients.Pepper, -1), // Quantity not specified
+    new qIngredient(Ingredients.Salt, -1), // Quantity not specified
+    new qIngredient(Ingredients.Butter, 100), // 100 grams of Butter
+    new qIngredient(Ingredients.Wine, 1), // 1 bottle of Wine
+    new qIngredient(Ingredients.Carrot, 4), // 4 Carrots
+    new qIngredient(Ingredients.Onion, 4), // 4 Onions
+    new qIngredient(Ingredients.Beef, 600), // 600 grams of Beef
+    new qIngredient(Ingredients.BouquetGarni, 1) // 1 Bouquet garni
+};
+
+        public static Recipe BoeufBourguignon = new Recipe(
+            boeufBourguignonName,
+            boeufBourguignonDescription,
+            boeufBourguignonSteps,
+            boeufBourguignonIngredients,
+            40,
+            "Images/boeufBourguignon.jpg",
+            18.40f,
+            3090
+        );
+
+        //=============================================================
+        // Dahl
+        static string dahlName = "Dahl";
+        static string dahlDescription = SplitString("Dahl, also known as dal or dhal, is a comforting and nutritious dish " +
+    "originating from the Indian subcontinent. It is made from lentils that are simmered to a creamy consistency " +
+    "and infused with a delightful blend of spices. Dahl can be prepared in various ways, with each region and " +
+    "household adding its unique twist to the recipe. This particular recipe for Dahl offers a fragrant and " +
+    "flavorful rendition, combining the earthy taste of coral lentils with the vibrant hues and aromas of " +
+    "fresh vegetables and aromatic spices. With its rich texture and harmonious blend of flavors, this Dahl " +
+    "recipe is sure to become a staple in your culinary repertoire, perfect for cozy evenings or as a " +
+    "nourishing accompaniment to your favorite Indian-inspired dishes.\n", 100);
+
+        static string dahlDescription1 = SplitString("Heat sunflower oil in a saucepan over medium heat.\n", 100);
+        static Steps dahlFirst = new Steps(dahlDescription1, 2, 1);
+
+        static string dahlDescription2 = SplitString("Add chopped garlic to the hot oil and cook for about a minute " +
+            "until fragrant.\n", 100);
+        static Steps dahlSecond = new Steps(dahlDescription2, 1, 2);
+
+        static string dahlDescription3 = SplitString("Meanwhile, wash the tomatoes and dice them. Peel the carrots " +
+            "and thinly slice them.\n", 100);
+        static Steps dahlThird = new Steps(dahlDescription3, 5, 3);
+
+        static string dahlDescription4 = SplitString("In a separate saucepan, add coral lentils and cover them with water. " +
+            "Bring to a boil and cook for approximately 10 minutes until the water is completely absorbed. " +
+            "Remove from heat and let them rest.\n", 100);
+        static Steps dahlFourth = new Steps(dahlDescription4, 15, 4);
+
+        static string dahlDescription5 = SplitString("In the frying pan with garlic, add the diced tomatoes and sliced carrots. " +
+            "Sprinkle with ginger, cumin, and turmeric. Finally, add the tomato paste.\n", 100);
+        static Steps dahlFifth = new Steps(dahlDescription5, 5, 5);
+
+        static string dahlDescription6 = SplitString("Pour in the coconut milk and simmer for about 10 minutes without covering, " +
+            "allowing the flavors to meld together.\n", 100);
+        static Steps dahlSixth = new Steps(dahlDescription6, 10, 6);
+
+        static string dahlDescription7 = SplitString("Finally, add the cooked lentils to the saucepan with the vegetables and spices. " +
+            "Stir everything well to combine, ensuring the lentils are fully coated in the flavorful sauce.\n", 100);
+        static Steps dahlSeventh = new Steps(dahlDescription7, 5, 7);
+
+        static List<Steps> dahlSteps = new List<Steps>()
+{
+    dahlFirst,
+    dahlSecond,
+    dahlThird,
+    dahlFourth,
+    dahlFifth,
+    dahlSixth,
+    dahlSeventh
+};
+
+        static List<qIngredient> dahlIngredients = new List<qIngredient>()
+{
+    new qIngredient(Ingredients.SunflowerOil, 15), // 1 tablespoon of Sunflower oil
+    new qIngredient(Ingredients.Ginger, 0.5f), // 0.5 teaspoon of Ginger
+    new qIngredient(Ingredients.Cumin, 0.5f), // 0.5 teaspoon of Cumin
+    new qIngredient(Ingredients.Turmeric, 1), // 1 tablespoon of Turmeric
+    new qIngredient(Ingredients.Carrot, 4), // 4 Carrots
+    new qIngredient(Ingredients.Tomatoes, 5), // 5 Tomatoes
+    new qIngredient(Ingredients.CoralLentils, 300), // 30 cl (300 grams) of Coral lentils
+    new qIngredient(Ingredients.CoconutMilk, 250), // 25 cl (250 ml) of Coconut milk
+    new qIngredient(Ingredients.Garlic, 1), // 1 clove of chopped Garlic
+    new qIngredient(Ingredients.TomatoPaste, 15) // 1 tablespoon of Tomato paste
+};
+
+        public static Recipe Dahl = new Recipe(
+            dahlName,
+            dahlDescription,
+            dahlSteps,
+            dahlIngredients,
+            30, // Cook time not specified, set to 30 minutes as an estimate
+            "Images/dahl.jpg",
+            6.35f,
+            1645
+        );
+        //=============================================================
+        public static List<Recipe> AllRecipes = new List<Recipe>()
+        { 
+            Recipes.BoeufBourguignon,
+            Recipes.Cassoulet,
+            Recipes.CroqueMonsieur,
+            Recipes.Dahl
+        };

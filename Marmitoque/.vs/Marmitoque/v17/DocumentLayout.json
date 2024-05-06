@@ -1,0 +1,155 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\vince\\OneDrive\\Bureau\\cours\\Irlande\\OOD\\Marmitoque\\Marmitoque\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1DC25E06-A4D6-4C0C-9080-0D75C9C4EF6A}|Marmitoque\\Marmitoque.csproj|c:\\users\\vince\\onedrive\\bureau\\cours\\irlande\\ood\\marmitoque\\marmitoque\\marmitoque\\tools.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DC25E06-A4D6-4C0C-9080-0D75C9C4EF6A}|Marmitoque\\Marmitoque.csproj|solutionrelative:marmitoque\\tools.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DC25E06-A4D6-4C0C-9080-0D75C9C4EF6A}|Marmitoque\\Marmitoque.csproj|c:\\users\\vince\\onedrive\\bureau\\cours\\irlande\\ood\\marmitoque\\marmitoque\\marmitoque\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DC25E06-A4D6-4C0C-9080-0D75C9C4EF6A}|Marmitoque\\Marmitoque.csproj|solutionrelative:marmitoque\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DC25E06-A4D6-4C0C-9080-0D75C9C4EF6A}|Marmitoque\\Marmitoque.csproj|C:\\Users\\vince\\OneDrive\\Bureau\\cours\\Irlande\\OOD\\Marmitoque\\Marmitoque\\marmitoque\\recipes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DC25E06-A4D6-4C0C-9080-0D75C9C4EF6A}|Marmitoque\\Marmitoque.csproj|solutionrelative:marmitoque\\recipes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DC25E06-A4D6-4C0C-9080-0D75C9C4EF6A}|Marmitoque\\Marmitoque.csproj|C:\\Users\\vince\\OneDrive\\Bureau\\cours\\Irlande\\OOD\\Marmitoque\\Marmitoque\\marmitoque\\steps.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DC25E06-A4D6-4C0C-9080-0D75C9C4EF6A}|Marmitoque\\Marmitoque.csproj|solutionrelative:marmitoque\\steps.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DC25E06-A4D6-4C0C-9080-0D75C9C4EF6A}|Marmitoque\\Marmitoque.csproj|C:\\Users\\vince\\OneDrive\\Bureau\\cours\\Irlande\\OOD\\Marmitoque\\Marmitoque\\marmitoque\\ingredients.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DC25E06-A4D6-4C0C-9080-0D75C9C4EF6A}|Marmitoque\\Marmitoque.csproj|solutionrelative:marmitoque\\ingredients.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DC25E06-A4D6-4C0C-9080-0D75C9C4EF6A}|Marmitoque\\Marmitoque.csproj|c:\\users\\vince\\onedrive\\bureau\\cours\\irlande\\ood\\marmitoque\\marmitoque\\marmitoque\\datamanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DC25E06-A4D6-4C0C-9080-0D75C9C4EF6A}|Marmitoque\\Marmitoque.csproj|solutionrelative:marmitoque\\datamanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DC25E06-A4D6-4C0C-9080-0D75C9C4EF6A}|Marmitoque\\Marmitoque.csproj|C:\\Users\\vince\\OneDrive\\Bureau\\cours\\Irlande\\OOD\\Marmitoque\\Marmitoque\\marmitoque\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1DC25E06-A4D6-4C0C-9080-0D75C9C4EF6A}|Marmitoque\\Marmitoque.csproj|solutionrelative:marmitoque\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DC25E06-A4D6-4C0C-9080-0D75C9C4EF6A}|Marmitoque\\Marmitoque.csproj|C:\\Users\\vince\\OneDrive\\Bureau\\cours\\Irlande\\OOD\\Marmitoque\\Marmitoque\\marmitoque\\mainwindow.xaml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{1DC25E06-A4D6-4C0C-9080-0D75C9C4EF6A}|Marmitoque\\Marmitoque.csproj|solutionrelative:marmitoque\\mainwindow.xaml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DataManager.cs",
+              "DocumentMoniker": "C:\\Users\\vince\\OneDrive\\Bureau\\cours\\Irlande\\OOD\\Marmitoque\\Marmitoque\\Marmitoque\\DataManager.cs",
+              "RelativeDocumentMoniker": "Marmitoque\\DataManager.cs",
+              "ToolTip": "C:\\Users\\vince\\OneDrive\\Bureau\\cours\\Irlande\\OOD\\Marmitoque\\Marmitoque\\Marmitoque\\DataManager.cs",
+              "RelativeToolTip": "Marmitoque\\DataManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T13:52:45.512Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Ingredients.cs",
+              "DocumentMoniker": "C:\\Users\\vince\\OneDrive\\Bureau\\cours\\Irlande\\OOD\\Marmitoque\\Marmitoque\\Marmitoque\\Ingredients.cs",
+              "RelativeDocumentMoniker": "Marmitoque\\Ingredients.cs",
+              "ToolTip": "C:\\Users\\vince\\OneDrive\\Bureau\\cours\\Irlande\\OOD\\Marmitoque\\Marmitoque\\Marmitoque\\Ingredients.cs",
+              "RelativeToolTip": "Marmitoque\\Ingredients.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-13T09:51:50.16Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Steps.cs",
+              "DocumentMoniker": "C:\\Users\\vince\\OneDrive\\Bureau\\cours\\Irlande\\OOD\\Marmitoque\\Marmitoque\\Marmitoque\\Steps.cs",
+              "RelativeDocumentMoniker": "Marmitoque\\Steps.cs",
+              "ToolTip": "C:\\Users\\vince\\OneDrive\\Bureau\\cours\\Irlande\\OOD\\Marmitoque\\Marmitoque\\Marmitoque\\Steps.cs",
+              "RelativeToolTip": "Marmitoque\\Steps.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-13T09:46:49.99Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Recipes.cs",
+              "DocumentMoniker": "C:\\Users\\vince\\OneDrive\\Bureau\\cours\\Irlande\\OOD\\Marmitoque\\Marmitoque\\Marmitoque\\Recipes.cs",
+              "RelativeDocumentMoniker": "Marmitoque\\Recipes.cs",
+              "ToolTip": "C:\\Users\\vince\\OneDrive\\Bureau\\cours\\Irlande\\OOD\\Marmitoque\\Marmitoque\\Marmitoque\\Recipes.cs",
+              "RelativeToolTip": "Marmitoque\\Recipes.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-13T09:46:48.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Tools.cs",
+              "DocumentMoniker": "C:\\Users\\vince\\OneDrive\\Bureau\\cours\\Irlande\\OOD\\Marmitoque\\Marmitoque\\Marmitoque\\Tools.cs",
+              "RelativeDocumentMoniker": "Marmitoque\\Tools.cs",
+              "ToolTip": "C:\\Users\\vince\\OneDrive\\Bureau\\cours\\Irlande\\OOD\\Marmitoque\\Marmitoque\\Marmitoque\\Tools.cs",
+              "RelativeToolTip": "Marmitoque\\Tools.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T14:08:51.408Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\vince\\OneDrive\\Bureau\\cours\\Irlande\\OOD\\Marmitoque\\Marmitoque\\Marmitoque\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Marmitoque\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\vince\\OneDrive\\Bureau\\cours\\Irlande\\OOD\\Marmitoque\\Marmitoque\\Marmitoque\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Marmitoque\\MainWindow.xaml.cs",
+              "ViewState": "AQIAADwBAAAAAAAAAAAUwEMAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T15:43:15.07Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\vince\\OneDrive\\Bureau\\cours\\Irlande\\OOD\\Marmitoque\\Marmitoque\\Marmitoque\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Marmitoque\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\vince\\OneDrive\\Bureau\\cours\\Irlande\\OOD\\Marmitoque\\Marmitoque\\Marmitoque\\MainWindow.xaml",
+              "RelativeToolTip": "Marmitoque\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-02-28T15:18:51.909Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\vince\\OneDrive\\Bureau\\cours\\Irlande\\OOD\\Marmitoque\\Marmitoque\\Marmitoque\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Marmitoque\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\vince\\OneDrive\\Bureau\\cours\\Irlande\\OOD\\Marmitoque\\Marmitoque\\Marmitoque\\MainWindow.xaml",
+              "RelativeToolTip": "Marmitoque\\MainWindow.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-19T12:28:13.722Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
